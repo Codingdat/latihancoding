@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Profil Sosial Media</title>
+    <!-- Tambahkan tautan Google Fonts untuk font Inter -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+    <!-- Tambahkan Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', Arial, sans-serif; /* Gunakan font Inter */
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            width: 600px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+        }
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .youtube-link {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+        }
+        .social-media-list {
+            list-style: none;
+            padding: 0;
+            display: flex; /* Mengatur tata letak menjadi horizontal */
+            justify-content: center; /* Mengatur tata letak ke tengah */
+        }
+        .social-media-item {
+            margin: 0 10px; /* Menambahkan jarak horizontal antara tautan sosial media */
+        }
+        .social-media-link {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+        }
+        .social-media-icon {
+            margin-right: 5px; /* Menambahkan jarak antara ikon dan teks */
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="container">
+            <img src="profile.jpg" alt="Profil Anda" class="profile-picture">
+            <div class="name">Nama Anda</div>
+            <a href="https://www.youtube.com/username" class="youtube-link">"Kunjungi YouTube Saya"</a>
+            <ul class="social-media-list">
+                <li class="social-media-item">
+                    <a href="https://www.facebook.com/username" class="social-media-link">
+                        <i class="fab fa-facebook social-media-icon"></i> Facebook
+                    </a>
+                </li>
+                <li class="social-media-item">
+                    <a href="https://www.instagram.com/username" class="social-media-link">
+                        <i class="fab fa-instagram social-media-icon"></i> Instagram
+                    </a>
+                </li>
+                <li class="social-media-item">
+                    <a href="https://twitter.com/username" class="social-media-link">
+                        <i class="fab fa-twitter social-media-icon"></i> Twitter
+                    </a>
+                </li>
+                <li class="social-media-item">
+                    <a href="https://linkedin.com/username" class="social-media-link">
+                        <i class="fab fa-linkedin social-media-icon"></i> LinkedIn
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
